@@ -1,0 +1,20 @@
+@import '@carbon/colors/scss/colors';
+
+@import '@carbon/type/scss/type';
+
+.maindiv {
+  background-color: $cool-gray-10;
+  height: 100vh;
+  padding-top: 35px !important;
+  max-width: 100% !important;
+  margin-left: 35px;
+}
+
+.bx--header ~ .bx--content {
+  margin-top: 0rem !important;
+}
+.paragraph {
+  font-family: carbon--font-family('sans');
+  font-size: carbon--type-scale(3);
+  // font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
