@@ -1,24 +1,27 @@
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/_font-family.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/_breakpoint.scss';
+@import 'carbon-components/scss/globals/scss/_typography.scss';
+@import 'carbon-components/scss/globals/scss/_vars.scss';
 @import '@carbon/colors/scss/colors';
 
 .button {
-  margin: 15px;
-  height: 82px;
-  background-color: #183770a3;
-  color: white;
+  margin: $spacing-05;
+  height: $spacing-11;
+  background-color: $overlay-01;
+  color: $ui-background;
   width: 180px;
   position: relative;
   border-radius: 10px;
-  cursor: pointer;
   border-style: none;
 }
 .icon {
   position: absolute;
   left: 20px;
-  top: 20px;
+  top: 24px;
 }
 .title {
   position: absolute;
-  right: 35px;
-  top: 27px;
+  right: 40px;
+  top: 31px;
   font-size: 15px;
 }

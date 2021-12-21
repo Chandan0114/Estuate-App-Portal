@@ -7,7 +7,6 @@
   height: 100vh;
   padding-top: 35px !important;
   max-width: 100% !important;
-  margin-left: 35px;
 }
 
 .bx--header ~ .bx--content {
@@ -16,5 +15,10 @@
 .paragraph {
   font-family: carbon--font-family('sans');
   font-size: carbon--type-scale(3);
-  // font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.Section {
+  margin-left: 220px;
+}
+.Button {
+  margin-left: -12px !important;
 }

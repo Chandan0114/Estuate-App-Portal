@@ -2,9 +2,11 @@
 
 .maindiv1 {
   background-color: $cool-gray-10;
+  height: 100vh;
 }
-.pannel {
-  margin-left: 740px;
-
-  font-size: 13px;
+.bx--data-table-content {
+  height: 100vh;
+}
+.bx--table-expand__svg {
+  visibility: hidden !important;
 }

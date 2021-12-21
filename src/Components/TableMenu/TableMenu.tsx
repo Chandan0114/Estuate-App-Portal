@@ -16,7 +16,7 @@ function TableMenu() {
     <div>
       <SideNav aria-label="Side navigation" className="bx--side-nav1">
         <SideNavItems className="bx--side-nav__items">
-          <SideNavMenu title="Add New">
+          <SideNavMenu className="items" title="Add New">
             <SideNavMenuItem>Weekly</SideNavMenuItem>
 
             <SideNavMenuItem>Daily</SideNavMenuItem>
